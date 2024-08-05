@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Banner /> should render correctly 1`] = `
+<article
+  class="w-full md:relative md:rounded-md md:overflow-hidden md:shadow-xl "
+>
+  <figure
+    class="w-full h-60 md:h-[36rem]"
+  >
+    <img
+      alt="Banner - At Super Mario World you're going to pass through a lot of challenges, are you ready for this adventure?"
+      class="size-full object-cover"
+      src="https://images.unsplash.com/photo-1629646526325-d4e092b641b3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    />
+    <figcaption
+      class="text-white p-8 bg-opacity-15 bg-white md:absolute md:bottom-0 md:left-0 md:right-0 md:bg-[#000000] md:bg-opacity-70 md:p-11"
+    >
+      <h2
+        class="text-xl md:text-3xl font-semibold"
+      >
+        Banner
+      </h2>
+      <p
+        class="text-sm mt-xxsm mb-xsm [&_>_strong]:text-primary [&_>_strong]:font-semibold md:text-lg"
+      >
+        At Super Mario World you're going to pass through a lot of challenges, are you ready for this adventure?
+      </p>
+      <div
+        class="block md:hidden"
+      >
+        <button
+          class="inline-flex items-center justify-center text-white no-underline border-none rounded bg-gradient-to-b cursor-pointer from-[#FF5F5F] to-[#F062C0] hover:bg-gradient-to-b hover:from-[#e35565] hover:to-[#d958a6] text-sm h-10 px-md"
+          href="/#"
+          role="a"
+        >
+          <span>
+            Buy now
+          </span>
+        </button>
+      </div>
+      <div
+        class="hidden md:block"
+      >
+        <button
+          class="inline-flex items-center justify-center text-white no-underline border-none rounded bg-gradient-to-b cursor-pointer from-[#FF5F5F] to-[#F062C0] hover:bg-gradient-to-b hover:from-[#e35565] hover:to-[#d958a6] text-base h-12 px-xlg"
+          href="/#"
+          role="a"
+        >
+          <span>
+            Buy now
+          </span>
+        </button>
+      </div>
+    </figcaption>
+  </figure>
+</article>
+`;

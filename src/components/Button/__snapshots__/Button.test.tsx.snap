@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should render the Button with medium size by default 1`] = `
+<button
+  class="inline-flex items-center justify-center text-white no-underline border-none rounded bg-gradient-to-b cursor-pointer from-[#FF5F5F] to-[#F062C0] hover:bg-gradient-to-b hover:from-[#e35565] hover:to-[#d958a6] text-sm h-10 px-md"
+>
+  <span>
+    Buy now
+  </span>
+</button>
+`;
