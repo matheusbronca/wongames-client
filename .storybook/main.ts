@@ -10,6 +10,13 @@ const config: StorybookConfig = {
   docs: {
     autodocs: true
   },
+  typescript: {
+    // https://storybook.js.org/docs/configure/integration/typescript#extending-the-default-configuration <---- *** DOCUMENTATION TO INFER TYPES AUTOMATICALLY
+    reactDocgen: 'react-docgen-typescript',
+    // Provide your own options if necessary.
+    // See https://storybook.js.org/docs/configure/typescript for more information.
+    // reactDocgenTypescriptOptions: {}
+  },
   staticDirs: ['../public'],
   webpackFinal: async (config) => {
     config.resolve?.modules?.push(`${process.cwd()}/src`)

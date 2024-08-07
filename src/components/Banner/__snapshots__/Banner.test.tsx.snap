@@ -2,18 +2,18 @@
 
 exports[`<Banner /> should render correctly 1`] = `
 <article
-  class="w-full md:relative md:rounded-md md:overflow-hidden md:shadow-xl "
+  class="relative w-full md:relative md:rounded-md md:shadow-xl "
 >
   <figure
     class="w-full h-60 md:h-[36rem]"
   >
     <img
       alt="Banner - At Super Mario World you're going to pass through a lot of challenges, are you ready for this adventure?"
-      class="size-full object-cover"
+      class="size-full object-cover md:rounded-md"
       src="https://images.unsplash.com/photo-1629646526325-d4e092b641b3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     />
     <figcaption
-      class="text-white p-8 bg-opacity-15 bg-white md:absolute md:bottom-0 md:left-0 md:right-0 md:bg-[#000000] md:bg-opacity-70 md:p-11"
+      class="text-white p-8 bg-opacity-15 bg-white md:absolute md:bottom-0 md:left-0 md:right-0 md:bg-[#000000] md:bg-opacity-70 md:p-11 md:rounded-md md:rounded-t-none"
     >
       <h2
         class="text-xl md:text-3xl font-semibold"

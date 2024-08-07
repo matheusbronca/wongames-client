@@ -1,13 +1,18 @@
 import { cn } from '@/lib/utils'
 
+export type RibbonColor = 'primary' | 'secondary'
+export type RibbonSize = 'normal' | 'small'
+
 export type RibbonProps = {
-  size?: 'normal' | 'small'
-  color?: 'primary' | 'secondary'
+  size?: RibbonSize
+  color?: RibbonColor
+  className?: string
 } & React.PropsWithChildren
 
 const Ribbon = ({
   color = 'primary',
   size = 'normal',
+  className,
   children
 }: RibbonProps) => (
   <div
@@ -20,7 +25,8 @@ const Ribbon = ({
           color === 'secondary',
         'h-9 text-sm': size === 'normal',
         'h-6 text-xs after:size-[6px]': size === 'small'
-      }
+      },
+      className
     )}
   >
     {children}
