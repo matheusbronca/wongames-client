@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GameCard /> should be rendered correctly in the DOM 1`] = `
+<article
+  class="flex flex-col items-center w-full bg-white shadow-lg rounded rounded-t-none relative"
+>
+  <figure
+    class="block w-full bg-gray"
+  >
+    <a
+      data-img-game-link="true"
+      href="/games/red-dead-redemption-2"
+    >
+      <img
+        alt="Game Title"
+        class="object-cover w-full h-36"
+        src="/img/red-dead-img.jpg"
+      />
+    </a>
+    <div
+      class="bg-white p-4 pt-3 pb-0 flex justify-between gap-4 items-start"
+    >
+      <figcaption>
+        <h3
+          class="font-semibold text-base"
+        >
+          <a
+            data-title-game-link="true"
+            href="/games/red-dead-redemption-2"
+          >
+            Game Title
+          </a>
+        </h3>
+        <a
+          href="#"
+        >
+          <address
+            class="text-xs text-gray/60 not-italic hover:underline"
+          >
+            Game publisher
+          </address>
+        </a>
+      </figcaption>
+      <button
+        aria-label="Add to wishlist"
+        class="size-6 text-primary"
+        data-wishlist="true"
+        title="Add to wishlist"
+        type="button"
+      >
+        <svg-url />
+      </button>
+    </div>
+  </figure>
+  <div
+    class="flex items-center justify-end gap-1 size-full p-4 pt-2"
+  >
+    <div
+      class="text-gray/80 font-semibold line-through text-sm mr-3"
+      data-list-price="true"
+    >
+      $
+      200,00
+    </div>
+    <div
+      class="text-sm font-semibold text-white rounded-md bg-secondary py-1 px-3"
+      data-selling-price="true"
+    >
+      $
+      100,00
+    </div>
+    <button
+      class="text-white no-underline border-none rounded bg-gradient-to-b cursor-pointer from-[#FF5F5F] to-[#F062C0] hover:bg-gradient-to-b hover:from-[#e35565] hover:to-[#d958a6] text-xs h-7 p-2 inline-flex items-center justify-center [&_>_svg]:w-4 [&_svg_+_span]:ml-xxsm"
+    >
+      <svg-url />
+    </button>
+  </div>
+</article>
+`;

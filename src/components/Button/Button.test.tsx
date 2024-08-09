@@ -6,7 +6,7 @@ import Button from './Button'
 
 describe('<Button />', () => {
   const COMMON_BTN = 'border-none rounded'
-  const SM_BTN = 'text-xs h-8 p-2'
+  const SM_BTN = 'text-xs h-7 p-2'
   const MD_BTN = 'text-sm  h-10 px-md'
   const LG_BTN = 'text-base h-12 px-xlg'
 

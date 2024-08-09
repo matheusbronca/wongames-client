@@ -14,10 +14,15 @@ module.exports = {
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
   modulePaths: ['<rootDir>/src/'],
   moduleNameMapper: {
-    '\\.svg': '<rootDir>/__mocks__/svgr.js',
+    // '\\.(svg)$': '@svgr/webpack',
+    '\\.(svg)$': '<rootDir>/__mocks__/svgr.js',
     '^@/(.*)$': '<rootDir>/src/$1'
   },
   transform: {
     '^.+\\.(js|jsx|ts|tsx)$': ['babel-jest', { presets: ['next/babel'] }]
+  },
+  resolutions: {
+    'wrap-ansi': '7.0.0',
+    'string-width': '4.1.0'
   }
 }

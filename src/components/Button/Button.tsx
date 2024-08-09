@@ -17,7 +17,7 @@ export type ButtonProps = {
 const getVariantClasses = cva(null, {
   variants: {
     size: {
-      small: 'text-xs h-8 p-2',
+      small: 'text-xs h-7 p-2',
       medium: 'text-sm  h-10 px-md',
       large: 'text-base h-12 px-xlg'
     }
